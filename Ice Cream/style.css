@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E1D1C4;
+}
+.container {
+  overflow: hidden;
+  width: 90%;
+  height: 500px;
+  background: #FFF8F2;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+.container .navbar {
+  width: 100%;
+  padding: 35px 0;
+}
+h1 {
+  margin: 0;
+  float: left;
+  font-size: 2.5em;
+  font-family: cursive;
+  position: relative;
+  left: 10%;
+  color: #471F18;
+}
+.container .navbar ul {
+  position: relative;
+  text-align: right;
+  margin: 18px 20px;
+}
+.container .navbar ul li {
+  list-style: none;
+  display: inline-block;
+}
+.container .navbar ul li a {
+  display: inline;
+  text-transform: uppercase;
+  color: #CAA288;
+  position: relative;
+  right: -10%;
+  text-decoration: none;
+  margin: 0 20px;
+  z-index: 1;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.container .circle {
+  position: relative;
+  top: -36%;
+  width: 100%;
+  height: 100%;
+  background: #FDEADB;
+  clip-path: circle(60% at right);
+  z-index: 0;
+}
+.container .content {
+  width: 50%;
+}
+.container .content span {
+  position: absolute;
+  left: 12%;
+  top: 47%;
+  color: #471F18;
+  font-weight: 900;
+  font-size: 5vh;
+  font-family:'Pacifico';
+  line-height: 70px;
+}
+.container .imgBox {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+}
+.container .imgBox img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  top: -7vh;
+  left: ;
+  z-index: 1;
+  
+}
+.container .content p {
+  position: relative;
+  top: 45%;
+  left: 15%;
+  color: #CAA288;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.container .content a {
+  position: relative;
+  top: 200px;
+  left: 15%;
+  padding: 10px 20px;
+  background: #F2676F;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+@media screen and (max-width:480px){
+  .container .circle {
+    z-index: -1;
+  }
+  .container {
+  overflow: hidden;
+  width: 95%;
+  height: 90vh;
+  background: #FFF8F2;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+}
