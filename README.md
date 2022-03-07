@@ -8,4 +8,4 @@
 7. [Responsive Card](https://github.com/CoderLovely08/Web-Components/tree/main/Responsive%20card) ![](https://github.com/CoderLovely08/Web-Components/blob/main/Responsive%20card/img1.png)
 8. [Starbucks UI](https://github.com/CoderLovely08/Web-Components/tree/main/Starbucks) ![](https://github.com/CoderLovely08/Web-Components/blob/main/Starbucks/img.png)
 9. [Trave Site UI](https://github.com/CoderLovely08/Web-Components/tree/main/Travel%20site) ![](https://github.com/CoderLovely08/Web-Components/blob/main/Travel%20site/img.png)
-10. [Website Landing page](https://github.com/CoderLovely08/Web-Components/tree/main/Website) ![](https://github.com/CoderLovely08/Web-Components/blob/main/Travel%20site/img.png)
+10. [Website Landing page](https://github.com/CoderLovely08/Web-Components/tree/main/Website) ![](https://github.com/CoderLovely08/Web-Components/blob/main/Website/img1.png)
